@@ -43,6 +43,7 @@ body{
     height: auto;
 }
 .button{
+    /* le bouton est laid en criss, mal positioner */
     border-radius: 10px;
     background-color: white;
     color: black;
