@@ -41,14 +41,21 @@ body{
     margin-bottom: 10px;
     width: 100%;
     height: auto;
+   
+   
+   
 }
 .button{
-    /* le bouton est crissment laid */
-    border-radius: 10px;
+    scale: 1.2;
+    margin: auto;
+    border-radius: 50px;
+    background:url("C:\\Users\\clair-emile\\vsc\\prediction\\start-button.png")
+    center/cover no-repeat;
     background-color: white;
-    color: black;
-    padding: 30px;
+    color: transparent;
+    padding: 10px;
     cursor: pointer;
-    width: 200px;
-    height: 50px;
+    width: 100%;
+    height: 10 px;
+    
 }
