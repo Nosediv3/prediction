@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    /* il faut une image ici */
     background-image: "C:\Users\clair-emile\vsc\prediction\bg11.jpg"
     center/cover no-repeat;
     display: flex;
@@ -15,6 +16,7 @@ body{
     
 }
 .bg-container{
+    /* une image ici aussi */
     margin: 20px 0px;
     display: flex;
   flex-direction: column;  
