@@ -1,9 +1,7 @@
 body{
-    margin: 200;
-    padding: 0;
-    /* il faut une image ici */
-    background-image: "C:\Users\clair-emile\vsc\prediction\bg11.jpg"
-    center/cover no-repeat;
+    margin: 200px;
+    padding: 0px;
+    background-image: url("C:\\Users\\clair-emile\\vsc\\prediction\\bg1.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,19 +11,20 @@ body{
 #container{
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    justify-content: center;   
 }
 .bg-container{
     margin: 20px 0px;
-    display: flex;
+    
+    justify-content: center;
   flex-direction: column;  
-    text-align: center;
+  align-items: center;
     
     
 }
 .bg2{
-     /* une image ici aussi */
-    background-color: black;
+    background-image: url("C:\\Users\\clair-emile\\vsc\\prediction\\bg11.jpg");
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -33,6 +32,7 @@ body{
     margin: 0 20px;
     display: flex;
     flex-direction: row;
+   
     
     
 }
@@ -43,11 +43,12 @@ body{
     height: auto;
 }
 .button{
-    /* le bouton est laid en criss, mal positioner */
+    /* le bouton est crissment laid */
     border-radius: 10px;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 30px;
     cursor: pointer;
-    width: 100%;
+    width: 200px;
+    height: 50px;
 }
