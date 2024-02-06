@@ -16,7 +16,6 @@ body{
     
 }
 .bg-container{
-    /* une image ici aussi */
     margin: 20px 0px;
     display: flex;
   flex-direction: column;  
@@ -25,6 +24,7 @@ body{
     
 }
 .bg2{
+     /* une image ici aussi */
     background-color: black;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
